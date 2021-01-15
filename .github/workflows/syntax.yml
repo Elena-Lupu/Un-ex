@@ -11,7 +11,3 @@ jobs:
          run: |
           ./prim
           3
-          ./prim
-          1
-          ./prim
-          10
