@@ -1,8 +1,9 @@
 name: syntax
 on: push
 jobs:
-	linux:
-		runs-on: ubuntu-latest
-		steps:
-			- uses: actions/checkout@v2
-			- run: gcc prim.c -o prim
+linux:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+- name: Verifica nr prime
+run: gcc prim.c -o prim
