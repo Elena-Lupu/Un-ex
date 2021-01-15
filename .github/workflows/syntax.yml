@@ -1,5 +1,5 @@
 name: syntax
-on push
+on: push
 jobs:
 	linux:
 		run-on: ubuntu-latest
