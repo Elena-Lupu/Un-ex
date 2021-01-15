@@ -1,0 +1,8 @@
+name: syntax
+on push
+jobs:
+	linux:
+		run-on: ubuntu-latest
+		steps:
+			-run: echo Merge!
+			-run: gcc prim.c -o prim
