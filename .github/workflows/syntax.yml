@@ -9,6 +9,9 @@ jobs:
          run: gcc prim.c -o prim
        - name: Testeaza prime
          run: |
-          ./ prim 3
-          ./ prim 1
-          ./ prim 10
+          ./prim
+          3
+          ./prim
+          1
+          ./prim
+          10
