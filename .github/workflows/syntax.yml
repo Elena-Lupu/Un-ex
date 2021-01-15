@@ -4,4 +4,5 @@ jobs:
 linux:
 runs-on: ubuntu-latest
 steps:
+- uses: actions/checkout@v2
 - run: gcc prim.c -o prim
