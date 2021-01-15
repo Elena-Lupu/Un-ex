@@ -5,5 +5,10 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - uses: actions/checkout@v2
-       - name: Verifica nr prime
+       - name: Compileaza prime
          run: gcc prim.c -o prim
+       - name: Testeaza prime
+         run: |
+           prim 3
+           prim 1
+           prim 10
