@@ -8,5 +8,4 @@ steps:
 - uses: actions/setup-python@v2
 with:
 python-version: 3.7
-- run: echo Merge
 - run: gcc prim.c -o prim
